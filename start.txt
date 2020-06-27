@@ -1,0 +1,71 @@
+compnent Users - UserList - UserItmes
+in folder User :
+    arr userInfo
+    <UserList>
+in folder UserList :
+    <ul>
+    item.map(<UserItmes/>)
+in folder UserItmes :
+    <li> item
+    <div>
+    <Card>
+    <Link to = id/plsaes>
+    <Avater>
+    <div>
+    <h2 name
+    <h3 count
+    <Link/>
+    <Card/>
+in folder chaerd :
+    folder MainNvaigtion :
+        homberger
+        drawerIsOpen, setDrawerIsOpen useState
+         <sideDrawer show ={drawerIsOpen}> <navLink> <sideDrawer/>
+        openDrawer ()=>{
+            setDrawerIsOpen(true)
+        }
+        closeDrawer () =>{
+
+        }
+    folder header :
+    folder Nvaigtion :
+    folder navLink :
+        import navLink
+        (props) =>{
+            ul
+            li navLink = allusers
+            li navLink = u1/plsaes
+            li navLink = plsaes/new
+            li navLink = auth
+        }
+
+in index html :
+    div id= drawer-hook
+    div id= backDrop-hook
+
+in folder Side Drawer :
+    import reacr-dom     
+    const content = <aside onClick{closeDrwaer}>{props.children}<aside/>
+    returen react.creatPortal(content, getElemntById'drawer-hook')
+
+in folder BackDrop :
+    reday compnent in ueElements
+
+in folder plsaes :
+    pages UserPlaces :
+        DUMMY_PLACES = []
+        useParams
+        lodedplaces = DUMMY_PLACES.filter === userId
+        returen 
+        <placList items ={}/>
+    pages placList
+        if items lenght === 0 returen No places found
+        ul place-UserList
+        items.map (<placItem props>)
+    pages placItem
+        <li>
+        ....
+        button edit
+        button view
+        button delet
+        <li/>
